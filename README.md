@@ -159,7 +159,7 @@
             bcp.init("your_clientID", "your_clientSecret", FrameworkHandler, ScanCB, this);
 The code above start framework as activity fragment, and configure framework params.
    
-##Framework interfaces
+## Framework interfaces
 
 The `ScanCB` an implementation of interface `bcpScanCb`which has 2 callback  
 
@@ -178,7 +178,7 @@ Needed for receiving framework state. The definition of callbacks:
     * Other value - is meant error, the message have info about error
 - Has param (String) message - is using for send common error messages
 
-##Framework state codes
+## Framework state codes
 ``` 
 1.  Bluetooth section 
 2.  Internet connection 
