@@ -73,9 +73,9 @@
             }
             apply plugin: 'com.google.gms.google-services'
         }
-- Download the file *[bscanner](/bscanner-release.aar?at=master)*.
+- Download the framework.
      
-- Move library in folder _/libs_ in your project.
+- Move framework in folder _/libs_ in your project.
 ## How to set up your project
 
 #### Configure manifest file
